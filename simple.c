@@ -2,6 +2,11 @@
 
 int main()
 {
-    printf("Hello, World! This is a native C program compiled on the command line.\n");
-    return 0;
+	printf("Starting CMD");
+	printf("\n");
+	system("cmd");
+	printf("Stoping CMD");
+	printf("\n");
+	system("pause");
+	return 0;
 }
